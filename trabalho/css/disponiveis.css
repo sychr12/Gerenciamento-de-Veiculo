@@ -1,0 +1,88 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.veiculos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.veiculo-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.veiculo-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.veiculo-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.veiculo-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.status.disponivel {
+    color: #28a745;
+}
+
+.status.indisponivel {
+    color: #dc3545; 
+}
+
+
+/*
+.veiculo-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.veiculo-card button:hover {
+    background-color: #0056b3;
+}
+
+.veiculo-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/*

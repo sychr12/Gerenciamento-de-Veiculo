@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/disponiveis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veículos disponiveis</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            width: 100%;
+        }
+        .body{
+            background-color: salmon;
+        }
+
+        .logo {
+            margin-left: 20px; 
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .Submenu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px; 
+        }
+
+        .links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .login {
+            margin-right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .login a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .login a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            background-color: rgba(0, 0, 255, 0.76);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0 auto; 
+            width: 100%; 
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://youtu.be/kwME2_xpUlI?si=9jt9HOU-IPsfCNKH">SEU TEMA</a>
+        </div>
+        <div class="Submenu">
+            <ul class="links">
+                <li><a href="/index/home.html">Home</a></li>
+                <li><a href="/index/chamados.html">Chamados</a></li>
+                <li><a href="/index/Veiculos.html">Veículos disponiveis</a></li>
+                <li><a href="/index/Manutençoes.html">Manutenções</a></li>
+                <li><a href="/index/Multas.html">Multas</a></li>
+                <li><a href="/index/Cadastro.html">Cadastro Novo Veiculo</a></li>
+            </ul>
+            <div class="login">
+                <a href="/index/login.html">Login</a>
+                <a href="/index/registro.html">Registro</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="Tema">
+        <h1>Veículos disponiveis</h1>
+    </div>
+
+    <div class="container">
+        <div class="veiculos-lista">
+            <div class="veiculo-card">
+                <h3>Ford Ka</h3>
+                <p><strong>Placa:</strong> ABC-1234</p>
+                <p><strong>Ano:</strong> 2020</p>
+                <p><strong>Cor:</strong> Branco</p>
+                <div class="status disponivel">
+                    <i class="fas fa-check-circle"></i> Disponível
+                </div>
+                
+            </div>
+
+            <div class="veiculo-card">
+                <h3>Chevrolet Onix</h3>
+                <p><strong>Placa:</strong> DEF-5678</p>
+                <p><strong>Ano:</strong> 2021</p>
+                <p><strong>Cor:</strong> Preto</p>
+                <div class="status indisponivel">
+                    <i class="fas fa-times-circle"></i> Indisponível
+                </div>
+                
+            </div>
+
+            <div class="veiculo-card">
+                <h3>Volkswagen Gol</h3>
+                <p><strong>Placa:</strong> GHI-9101</p>
+                <p><strong>Ano:</strong> 2019</p>
+                <p><strong>Cor:</strong> Vermelho</p>
+                <div class="status disponivel">
+                    <i class="fas fa-check-circle"></i> Disponível
+                </div>
+            </div>
+
+            <div class="veiculo-card">
+                <h3>Fiat Argo</h3>
+                <p><strong>Placa:</strong> JKL-1121</p>
+                <p><strong>Ano:</strong> 2022</p>
+                <p><strong>Cor:</strong> Prata</p>
+                <div class="status indisponivel">
+                    <i class="fas fa-times-circle"></i> Indisponível
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <link src="/trabalho/js/butão-disponivel.js">
+
+</body>
+</html>
