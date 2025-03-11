@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<html>
+<html lang="pt-BR"> <!-- Defina o idioma correto -->
+
 <head>
-    <link rel="stylesheet" href="/css/login.css" />
+    <meta charset="UTF-8"> <!-- Adicione o charset para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <link rel="stylesheet" href="/css/login.css"> <!-- Link para o arquivo CSS -->
     <title>Login</title>
 </head>
+
+<img src="/img/img1.jpeg" alt="teste">
+
 <body>
     <div class="login-container">
         <h2>Login</h2>
@@ -12,12 +17,13 @@
         <input type="password" id="password" placeholder="Senha" required>
         <button onclick="login()">Entrar</button>
         <div id="errorMessage" class="error-message"></div>
-        
+
         <div class="registre-link">
-            <p>Não é registrado? <a href="registro.html">Registre aqui</a></p>
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            <label for="rememberMe">Lembrar de mim</label>
         </div>
     </div>
-    <script src="/js/usuario.js"></script>
-<style>
+    <script src="/js/usuario.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
 
-</style>
+</html>
