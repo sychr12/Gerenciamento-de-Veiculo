@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Defina o idioma correto -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Adicione o charset para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <link rel="stylesheet" href="/public/styles/login.css"> <!-- Link para o arquivo CSS -->
+    <title>Login</title>
+</head>
+
+<img src="/public/img/img1.jpeg" alt="teste">
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Usuário" required>
+        <input type="password" id="password" placeholder="Senha" required>
+        <button onclick="login()">Entrar</button>
+        <div id="errorMessage" class="error-message"></div>
+
+        <div class="registre-link">
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            <label for="rememberMe">Lembrar de mim</label>
+        </div>
+    </div>
+    <script src="/js/usuario.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+
+</html>

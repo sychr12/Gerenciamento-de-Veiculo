@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    position: relative;
+    right: 240px;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0; 
+    background-color: #ffffff;/* Remove margens padrão */
+    background-attachment: fixed;
+}
+
+.login-container {
+    position: relative;
+    height: 90vh;
+    width: 380px;
+    top: 20px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 90px rgb(168, 153, 153);
+    text-align: center;
+    margin-right: 20px; 
+}
+
+h2 {
+    margin: 10px 0;
+    color: #000000;
+    position: relative;
+    top: 280px;
+}
+
+p {
+    color: #fdf4f4;
+}
+
+input {
+    position: relative;
+    top: 35%;
+    margin: 10px;
+    padding: 15px 23px 15px 30px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+}
+
+button {
+    position: relative;
+    top: 40%;
+    padding: 20px 130px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.wrapper .registre-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.div .caixa {
+    position: relative;
+    left: 100px;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+a:-webkit-any-link {
+    font-size: small;
+    position: relative;
+    right: -50px;
+    top: -85px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    border-radius: 20px;
+    height: 16px;
+    top: 237px;
+    left: -190px;
+}
+
+label {
+    position: relative;
+    top: 210px;
+    left: -110px;
+    font-size: 14px;
+}
+
+input:not([type="image"], [type="range"], [type="checkbox"], [type="radio"]) {
+    position: relative;
+    right: 10px;
+}
+
+img{
+    padding: 30px 20px 0 10px;
+    width: 1000px;
+}

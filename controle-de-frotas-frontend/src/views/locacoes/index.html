@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/public/styles/styles.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locações - Controle de Frotas</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    header {
+        background-color: blue;
+        color: white;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 101svw;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    .Submenu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    .links a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+    .login {
+        margin-right: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .login a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    .login a:hover {
+        text-decoration: underline;
+    }
+
+    .Tema h1  {
+        background-color: rgba(0, 0, 255, 0.76);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: medium;
+    }
+</style>
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <a href="https://youtu.be/kwME2_xpUlI?si=9jt9HOU-IPsfCNKH">SEU TEMA</a>
+    </div>
+    <nav class="Submenu">
+        <ul class="links">
+            <li><a href="/src/views/home/index.html">Home</a></li>
+            <li><a href="/src/views/funcionarios/index.html">Funcionário</a></li>
+            <li><a href="/src/views/departamentos/index.html">Departamento</a></li>
+            <li><a href="/src/views/locacoes/index.html">Locações</a></li>
+            <li><a href="/src/views/manutencoes/index.html">Manutenções</a></li>
+            <li><a href="/src/views/motoristas/index.html">Motorista</a></li>
+            <li><a href="/src/views/multas/index.html">Multas</a></li>
+            <li><a href="/src/views/solicitacoes/index.html">Solicitações</a></li>
+            <li><a href="/src/views/veiculos/index.html">Veiculo</a></li>
+			<li><a href="/src/views/cadastro/cadastro.html">Cadastro</a></li>
+			<li><a href="/src/views/relatorios/relatorios.html">Relatórios</a></li>
+        </ul>
+        <div class="login">
+            <a href="/src/views/login/login.html">Login</a>
+        </div>
+    </nav>
+</header>
+
+<div class="Tema">
+    <h1>locacoes</h1>
+</div>
+
+<!--AREA 1-->
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <table class="highlight">
+                    <thead>
+                        <tr>
+                            <th>Nº</th>
+                            <th>Status</th>
+                            <th>Tanq. saída</th>
+                            <th>Tanq. chegada</th>
+                            <th>Km saída</th>
+                            <th>Km chegada</th>
+                            <th>Tipo de evento</th>
+                            <th>Data e hora</th>
+                            <th>Nome do funcionário</th>
+                            <th>Id Motorista</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/public/scripts/locacoes.js"></script>
+</body>
+</html>
+
